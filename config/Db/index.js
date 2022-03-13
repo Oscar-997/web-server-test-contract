@@ -6,7 +6,7 @@ async function connect() {// tạo 1 hàm bất đồng bộ async tên connect
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
-        // console.log('Connect successfully!!!');// thành công in ra 
+        console.log('Connect successfully!!!');// thành công in ra 
     } catch (error) {
         console.log('Connect failure!!!');// thất bại in ra ở terminal
     }
